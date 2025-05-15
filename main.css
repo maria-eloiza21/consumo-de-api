@@ -1,0 +1,116 @@
+body {
+    font-family: 'Comic Sans MS', 'Mountains of Christmas', cursive, sans-serif;
+    background: linear-gradient(to bottom right, #ffe6f0, #fff0f5);
+    color: #8b0000;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  h1, h2, h3 {
+    color: #d93d5e;
+    text-shadow: 1px 1px 2px pink;
+    font-weight: normal;
+  }
+  
+  /* Botões gerais */
+  button {
+    background-color: #ffbad4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(255, 105, 180, 0.3);
+    transition: all 0.3s ease;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #ff69b4;
+    transform: scale(1.05);
+  }
+  
+  /* Campo de texto */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 80%;
+    max-width: 400px;
+    padding: 12px 15px;
+    border: 2px solid #ff99aa;
+    border-radius: 25px;
+    font-size: 1rem;
+    outline: none;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(255, 105, 180, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    border-color: #ff4d6d;
+    box-shadow: 0 0 8px rgba(255, 87, 116, 0.4);
+  }
+  
+  /* Lista de tarefas ou itens */
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  li {
+    background-color: #fff0f5;
+    border: 1px dashed #ffb6c1;
+    margin: 10px 0;
+    padding: 12px 15px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(255, 105, 180, 0.2);
+    font-size: 1.1rem;
+    transition: transform 0.2s ease;
+  }
+  
+  li:hover {
+    transform: scale(1.02);
+  }
+  
+  li input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .btn-delete {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  
+  .btn-delete:hover {
+    background-color: #ff1493;
+  }
+  
+  .btn-edit {
+    background-color: #ba55d3;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  
+  .btn-edit:hover {
+    background-color: #9370db;
+  }
